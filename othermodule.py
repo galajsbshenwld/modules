@@ -1,2 +1,2 @@
-def reverse(s):
-    return ' '.join(reversed(s.split()))
+def reverse(sequence):
+    return list(reversed(sequence))
